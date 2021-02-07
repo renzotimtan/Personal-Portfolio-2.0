@@ -2,6 +2,7 @@ nav {
   width: 100%;
   height: 60px;
   position: fixed;
+  top: 0;
   z-index: 10;
   background: #515f64;
   box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.2);
@@ -14,17 +15,26 @@ nav {
     width: 40%;
     justify-content: space-evenly;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 24px;
 
     li {
       list-style: none;
       font-weight: 300;
 
       &:hover {
-        color: #73CDA7;
+        color: #73cda7;
       }
     }
 
-
+    .line {
+      height: 0.15rem;
+      background: #73cda7;
+      position: relative;
+      top: 10px;
+    }
   }
+}
+
+.active {
+  color: #73cda7;
 }

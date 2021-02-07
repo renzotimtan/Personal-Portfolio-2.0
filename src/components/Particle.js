@@ -3,7 +3,7 @@ import Particles from "react-particles-js";
 const Particle = () => {
   return (
     <Particles
-      style={{ position: "absolute" }}
+      style={{ position: "absolute", top: 0, left: 0, zIndex: -1 }}
       params={{
         particles: {
           number: {

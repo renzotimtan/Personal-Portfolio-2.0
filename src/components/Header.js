@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { flowDown, parentHeader, fade } from "../framerStyles";
+import { flowDown, fade } from "../framerStyles";
 import heading from "../img/heading.png";
 
 // Font Awesome
@@ -9,12 +9,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
-    <motion.header
-      variants={parentHeader}
-      initial="hidden"
-      animate="show"
-      className="header"
-    >
+    <header>
       {/* Image */}
       <div className="image">
         <img src={heading} alt="" />
@@ -29,17 +24,25 @@ const Header = () => {
       </div>
       {/* Quick Links */}
       <motion.div className="quick-links" variants={fade}>
-        <a href="https://github.com/renzotimtan" target="_blank">
+        <a
+          href="https://github.com/renzotimtan"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
-        <a href="https://www.linkedin.com/in/renzotimtan/" target="_blank">
+        <a
+          href="https://www.linkedin.com/in/renzotimtan/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a href="mailto:renzotimtan@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} size="2x" />
         </a>
       </motion.div>
-    </motion.header>
+    </header>
   );
 };
 
