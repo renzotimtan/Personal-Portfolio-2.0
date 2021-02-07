@@ -1,3 +1,5 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;500;700&display=swap");
 @import "./header";
 @import "./nav";
 
@@ -8,6 +10,11 @@
 }
 
 body {
-    font-family:"Josefin Sans", sans-serif;
-    color: #dae9d4;
+  font-family: "Josefin Sans", sans-serif;
+  color: #dae9d4;
+  letter-spacing: 0.125em;
+}
+
+.headings {
+  background: #212833;
 }

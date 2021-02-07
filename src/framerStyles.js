@@ -1,13 +1,3 @@
-export const nameFlow = {
-  hidden: {
-    pathLength: 0,
-  },
-  show: {
-    pathLength: 1,
-    transition: { duration: 6 },
-  },
-};
-
 export const flowDown = {
   hidden: {
     opacity: 0,
@@ -16,7 +6,7 @@ export const flowDown = {
   show: {
     opacity: 1,
     y: 0,
-    transition: { duration: 1.5 },
+    transition: { duration: 1, ease: "easeOut" },
   },
 };
 
@@ -31,7 +21,19 @@ export const parentHeader = {
     transition: {
       duration: 1,
       when: "beforeChildren",
-      staggerChildren: 1,
+      staggerChildren: 0.8,
+    },
+  },
+};
+
+export const fade = {
+  hidden: {
+    opacity: 0,
+  },
+  show: {
+    opacity: 1,
+    transition: {
+      duration: 1,
     },
   },
 };
