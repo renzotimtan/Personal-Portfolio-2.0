@@ -87,11 +87,17 @@
 
       h1 {
         font-weight: 500;
+        @media screen and (max-width: 500px) {
+          font-size: 18px;
+        }
       }
 
       p {
         font-weight: 300;
         margin: 10px 0 20px;
+        @media screen and (max-width: 500px) {
+          font-size: 14px;
+        }
       }
 
       a {
