@@ -26,8 +26,10 @@ const Nav = () => {
             transition={{ duration: 0.75 }}
           ></motion.div>
         </Link>
-        <Link to="/about">
-          <li>Projects</li>
+        <Link to="/projects">
+          <li className={activePath === "/projects" ? "active" : ""}>
+            Projects
+          </li>
           <motion.div
             className="line"
             initial={{ width: "0%" }}

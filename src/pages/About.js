@@ -81,7 +81,7 @@ const About = () => {
               <li>
                 <span>Version Control: </span>
                 <br />
-                Git and Github
+                Git and Github/Gitlab
               </li>
             </ul>
           </div>

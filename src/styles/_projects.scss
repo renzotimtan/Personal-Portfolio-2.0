@@ -1,0 +1,71 @@
+.projects-header {
+  margin: 100px auto 0px;
+  width: 90%;
+
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+    grid-auto-rows: 250px;
+    gap: 15px;
+  }
+
+  .project {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    .project-img {
+      width: 100%;
+      height: 100%;
+    }
+    .overlay {
+      position: absolute;
+      height: 100%;
+      bottom: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      color: white;
+      transition: 0.5s ease-out;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      padding: 0 2rem;
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+    .overlay-text {
+      overflow: hidden;
+      line-height: 1.1;
+
+      h1 {
+        font-weight: 500;
+      }
+
+      p {
+        font-weight: 300;
+        margin: 10px 0;
+      }
+    }
+
+    .title {
+      text-transform: uppercase;
+      color: #eaa200;
+    }
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .title {
+    color: white;
+  }
+
+  .overlay-text {
+    display: block;
+  }
+}

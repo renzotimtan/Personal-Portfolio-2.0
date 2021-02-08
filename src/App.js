@@ -1,6 +1,7 @@
 import "./styles/App.scss";
 import Home from "./pages/Home";
 import About from "./pages/About";
+import Projects from "./pages/Projects";
 import Nav from "./components/Nav";
 // Particle.js
 import Particle from "./components/Particle";
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
         </Switch>
       </AnimatePresence>
