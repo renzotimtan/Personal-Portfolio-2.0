@@ -3,10 +3,10 @@ import { flowUp } from "../framerStyles";
 
 const Project = ({ image, title, tech, source, site }) => {
   return (
-    <motion.div class="project" variants={flowUp}>
-      <img class="project-img" alt="project" src={image} />
-      <div class="overlay">
-        <div class="overlay-text">
+    <motion.div className="project" variants={flowUp}>
+      <img className="project-img" alt="project" src={image} />
+      <div className="overlay">
+        <div className="overlay-text">
           <h1>{title}</h1>
           <p>{tech}</p>
           <div>
