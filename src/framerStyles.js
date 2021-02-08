@@ -30,7 +30,7 @@ export const fastHeader = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.35,
+      staggerChildren: 0.25,
       when: "beforeChildren",
     },
   },

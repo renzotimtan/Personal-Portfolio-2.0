@@ -1,17 +1,33 @@
 header {
-  height: 100vh;
+  height: calc(100vh - 60px);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  @media screen and (max-height: 600px) {
+    height: auto;
+    margin: 70px auto;
+  }
+
+  @media screen and (min-width: 1500px) and (max-height: 900px) {
+    height: auto;
+    margin: 70px auto;
+  }
 
   .image {
     width: 230px;
     height: 230px;
-    background: #2E3445;
+    background: #2e3445;
     border-radius: 100%;
     overflow: hidden;
     position: relative;
+    @media screen and (min-width: 1700px) {
+      width: 280px;
+      height: 280px;
+    }
 
     img {
       position: absolute;
@@ -21,7 +37,8 @@ header {
     }
   }
 
-  .heading, .subheading {
+  .heading,
+  .subheading {
     overflow: hidden;
     margin-top: 1.5rem;
 
@@ -30,11 +47,41 @@ header {
       font-size: 7.5rem;
       font-weight: 100;
       letter-spacing: 1rem;
+      @media screen and (min-width: 1700px) {
+        font-size: 10rem;
+      }
+
+      @media screen and (max-width: 1000px) {
+        font-size: 5rem;
+      }
+
+      @media screen and (max-width: 700px) {
+        font-size: 3.4rem;
+        letter-spacing: 0.125rem;
+      }
+
+      @media screen and (max-width: 320px) {
+        font-size: 2.5rem;
+        letter-spacing: 0.125rem;
+      }
     }
 
     h2 {
       font-size: 1.2rem;
       font-weight: 500;
+      line-height: 1.6;
+      @media screen and (min-width: 1700px) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: 1000px) {
+        font-size: 1.4rem;
+      }
+      @media screen and (max-width: 700px) {
+        font-size: 1rem;
+      }
+      @media screen and (max-width: 320px) {
+        font-size: 0.8rem;
+      }
     }
   }
 
@@ -43,6 +90,9 @@ header {
 
     svg {
       margin: 0 15px;
+      @media screen and (min-width: 1700px) {
+        font-size: 3rem;
+      }
     }
   }
 }

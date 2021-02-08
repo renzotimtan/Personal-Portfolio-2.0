@@ -4,6 +4,17 @@
 @import "./about";
 @import "./projects";
 
+@mixin section() {
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  @media screen and (max-width: 850px) and (max-width: 450px) {
+    height: 600px;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -24,7 +35,7 @@ a:visited {
   cursor: pointer;
 }
 
-
-h1, h2 {
+h1,
+h2 {
   text-transform: uppercase;
 }
