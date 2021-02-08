@@ -5,7 +5,6 @@ import { motion } from "framer-motion";
 const Home = () => {
   return (
     <motion.section
-      className="headings"
       variants={parentHeader}
       initial="hidden"
       animate="show"

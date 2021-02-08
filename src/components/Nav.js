@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <ul class="nav-links">
+      <ul className="nav-links">
         <Link to="/">
           <li className={activePath === "/" ? "active" : ""}>Home</li>
           <motion.div
