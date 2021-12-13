@@ -46,7 +46,7 @@ const About = () => {
               <li>
                 <span>Cumulative Quality Point Index:</span>
                 <br />
-                3.61 / 4.00, Consistent Honors (1st - 3rd Year)
+                3.63 / 4.00, Consistent Honors (1st - 3rd Year)
               </li>
             </ul>
           </div>
@@ -66,12 +66,12 @@ const About = () => {
               <li>
                 <span>Front End Development: </span>
                 <br />
-                HTML, CSS, SASS, JavaScript DOM, Vue.js, React.js
+                HTML, CSS, SASS, JavaScript, Vue.js, React.js
               </li>
               <li>
                 <span>Back End Development: </span>
                 <br />
-                Django, PostgreSQL, Database Design
+                Django, Spring Boot, Node.js, SQL, MongoDB
               </li>
               <li>
                 <span>Programming Languages: </span>
