@@ -3,8 +3,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Nav from "./components/Nav";
-// Particle.js
-import Particle from "./components/Particle";
+
 //Router
 import { Route, Switch, useLocation } from "react-router-dom";
 // Animate Presence
@@ -16,9 +15,6 @@ function App() {
     <div className="App">
       {/* Navgation */}
       <Nav />
-
-      {/* Background */}
-      <Particle />
 
       {/* Body */}
       <AnimatePresence exitBeforeEnter>
