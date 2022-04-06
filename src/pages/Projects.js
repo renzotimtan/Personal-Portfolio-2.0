@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 // Images
 import tayo from "../img/projects/tayo.png";
-import recweek from "../img/projects/recweek.png";
+// import recweek from "../img/projects/recweek.png";
 import thecompany from "../img/projects/thecompany.png";
 import musicplayer from "../img/projects/musicplayer.png";
 import qwiklabs from "../img/projects/qwiklabs.png";
@@ -28,13 +28,13 @@ const Projects = () => {
                 animate="show"
             >
                 {/* Recweek */}
-                <Project
+                {/* <Project
                     image={recweek}
                     title="DSC-Loyola Recruitment Page"
                     tech="HTML, CSS, JS, GSAP 3, ScrollTrigger"
                     source="https://github.com/dsc-ateneo-de-manila-university/admu_recweek_page"
                     site="https://recweek.dscadmu.org/"
-                />
+                /> */}
 
                 {/* Tayo Website */}
                 <Project

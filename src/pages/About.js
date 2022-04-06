@@ -36,7 +36,9 @@ const About = () => {
               <li>
                 <span>Undergraduate Degree:</span>
                 <br />
-                BS, Management Information Systems
+                BS, Management Information Systems, 
+                <br />
+                Specialization in Enterprise Systems
               </li>
               <li>
                 <span>College/University:</span>
@@ -46,7 +48,7 @@ const About = () => {
               <li>
                 <span>Cumulative Quality Point Index:</span>
                 <br />
-                3.63 / 4.00, Consistent Honors (1st - 3rd Year)
+                3.66 / 4.00, Cum Laude
               </li>
             </ul>
           </div>
@@ -66,12 +68,12 @@ const About = () => {
               <li>
                 <span>Front End Development: </span>
                 <br />
-                HTML, CSS, SASS, JavaScript, Vue.js, React.js
+                HTML, CSS, JavaScript, React.js, Next.js, Vue.js
               </li>
               <li>
                 <span>Back End Development: </span>
                 <br />
-                Django, Spring Boot, Node.js, SQL, MongoDB
+                Django, Java Spring Boot, ExpressJS, PostgreSQL, MySQL, Firebase, MongoDB, Apollo GraphQL
               </li>
               <li>
                 <span>Programming Languages: </span>
