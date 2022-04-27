@@ -6,7 +6,7 @@ import tayo from "../img/projects/tayo.png";
 // import recweek from "../img/projects/recweek.png";
 import thecompany from "../img/projects/thecompany.png";
 import musicplayer from "../img/projects/musicplayer.png";
-import qwiklabs from "../img/projects/qwiklabs.png";
+// import qwiklabs from "../img/projects/qwiklabs.png";
 import jeopardy from "../img/projects/jeopardy.png";
 
 // Components
@@ -63,16 +63,7 @@ const Projects = () => {
                     site="https://silly-meninsky-147970.netlify.app/"
                 />
 
-                {/* Qwiklabs */}
-                <Project
-                    image={qwiklabs}
-                    title="Qwiklabs Finishers 2.0"
-                    tech="HTML, CSS, Vue.js, Firebase Firestore"
-                    source="https://github.com/dsc-ateneo-de-manila-university/qwiklabs-finishers-2.0"
-                    site="http://qwiklabs.finishersph.dev/"
-                />
-
-                {/* Qwiklabs */}
+                {/* Jeopardy */}
                 <Project
                     image={jeopardy}
                     title="Jeopardy Game"
